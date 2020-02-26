@@ -1,0 +1,159 @@
+.nav_body {
+    font-family: PingFang-SC-Regular,Helvetica,sans-serif !important;
+}
+/*通用字体颜色*/
+.weui-row_active{
+    color:#890101 !important;
+}
+.weui-row_active1{
+    color:#890101 !important;
+}
+/*通用背景色*/
+.general_bgc{
+    background-color:#890101 !important;
+    color: white;
+}
+/*通用边框*/
+.general_border{
+    border: 1px solid #890101 !important;
+}
+.general_border1{
+    border: 1.9px solid #890101 ;
+}
+/*通用下边框*/
+.general_bottom{
+    border-bottom: 3px solid #890101;
+}
+/*分类选中样式*/
+.circled{
+    border: 1px solid #890101 !important;
+    color: #890101 !important;
+}
+/*weui选项卡下边框和字体*/
+.weui_navbar_item                                      .weui_bar_item_on span {
+    border-bottom: 3px solid #890101;
+    color: #890101;
+}
+.article .weui_navbar_item.weui_bar_item_on {
+    color: #890101;
+    border-bottom: 3px solid #890101;
+}
+/*底部导航图片和字体变换颜色*/
+.foot-nav a i{display: block; margin: -2px auto 0; width: 32px; height: 32px;float:none; background: url(../images/line_icon.png) no-repeat; z-index: 100;}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2){.foot-nav a i{background: url(../images/line_icon.png) no-repeat;    background-size: 149px 65px;z-index: 100}}
+.foot-nav a i.cart{background-position: -90px -31px;}
+/*底部导航选中颜色*/
+.foot-nav a span{font-size: 12px;position: relative;top: -6px;color: #890101;}
+/*返回顶部*/
+
+.fix-block-r a.gotop-btn i {
+    background-image: url(../images/back1.png);
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.fix-block-share a i,#fullshare i {
+    background-image: url(../images/share_hongmu.png);
+    width: 1.8rem;
+    height: 1.8rem;
+    display: block;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.yimeng_camera i {
+    background-image: url(../images/camera@2x.png);
+    width: 1.8rem;
+    height: 1.8rem;
+    display: block;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/*分类左侧选项*/
+.am-nav-tabs>li.am-active>a, .am-nav-tabs>li.am-active>a:focus, .am-nav-tabs>li.am-active>a:hover {
+    color: #890101;
+}
+/*仙作城*/
+.am-tabs-default .am-tabs-nav>.am-active a {
+    color: #890101 !important;
+}
+.goods-search-list-nav ul li a.current {
+    color: #890101;
+}
+.goods-search-list-nav ul li a.current i {
+    border-color: #890101 transparent transparent transparent;
+}
+/*商品添加里的上架按钮*/
+.input-box label.checked .power{
+    background-color: #890101;
+    border-color:#890101;
+}
+header, .header{
+    background: #000000;
+}
+header.fixed{
+    background: #000;
+}
+.btn-l{
+    background: #890101;
+}
+.nctouch-nav-menu ul{
+    background: #000;
+}
+.nctouch-nav-menu .arrow{
+    border-color: transparent transparent #000 transparent;
+}
+.nctouch-inp-con .form-btn.ok .btn{
+    background: #890101;
+}
+.nctouch-tag-nav ul li.selected{
+    background-color: #890101;
+}
+.transparent .nctouch-nav-menu ul{
+    background: #000;
+}
+.header-r a.text{
+    color: #fff;
+}
+.list .goods-secrch-list .goods-price{
+    color: #890101 !important;
+}
+.nctouch-order-item-footer .store-totle .sum{
+    color: #890101 !important;
+}
+.nctouch-single-nav ul li.selected a{
+    color: #890101;
+    border-bottom: solid 0.1rem #890101!important;
+}
+.nctouch-order-item-head .state{
+    color: #890101 !important;
+}
+#update-touxiang{
+    background: #890101 !important;
+}
+.search-form input[type="submit"], .search-form input.submit, .search-form a.submit{
+    background: #890101 ;
+}
+.android-ics .dwv{
+    border-bottom: 2px solid #890101 !important;
+}
+.android-ics .dw{
+    color: #890101 !important;
+}
+.input-boxt em.checked .power{
+    background-color: #890101 !important;
+    border-color: #890101 !important;
+}
+.btn-add{
+    color: #890101  !important;
+}
+.fix-block-share #ondeskTop i {
+    background-image: url("../images/icon-toDestop_hongmu.png");
+    width: 1.8rem;
+    height: 1.8rem;
+    display: block;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

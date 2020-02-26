@@ -1,0 +1,74 @@
+@charset "utf-8";
+.wrapper {
+	width:1200px;
+	margin:auto
+}
+#t-sp {
+	position:relative;
+	display:none
+}
+#t-sp .close {
+	position:absolute;
+	right:8px;
+	top:5px;
+	background:url(../images/close.gif) no-repeat;
+	width:35px;
+	height:12px;
+	display:block
+}
+/*==========================================*/
+/* CMS头部区域、包含logo\搜索\天气插件			*/
+/* templates/default/layout/top.php 模板适用	*/
+/*==========================================*/
+#topHeader { width: 100%; margin: 0;}
+#topHeader .warp-all { width: 1200px; height: 150px; margin: 5px auto 0 auto; position: relative; z-index:1; }
+#topHeader .cms-logo { position: absolute; z-index: auto; left: 0; top: 35px;}
+#topHeader .cms-logo img { max-width: 380px; max-height: 60px; }
+#topHeader .search-cms { position: absolute; z-index: auto; left: 360px; top: 25px; }
+#topHeader .search-cms .tab { overflow: hidden; height: 26px;}
+#topHeader .search-cms .tab li { font-size: 14px; color: #777; line-height: 14px; display: inline-block; border-left: solid 1px #CCC; height: 14px; padding: 0 12px 0 15px; margin-left: -1px; position: relative; z-index: 1; cursor: pointer;}
+#topHeader .search-cms .tab li { *display: inline/*IE7*/;}
+#topHeader .search-cms .tab li.current { font-weight: 600; color: #333;}
+#topHeader .search-cms .tab li i { font-size: 0px; line-height: 0; display: none; width: 0px; height: 0px; margin-left:-3px; border-width: 6px; border-color: transparent transparent #D3E7FC transparent; border-style: dashed dashed solid dashed; position: absolute; top: 14px; left: 50%; }
+#topHeader .search-cms .tab li.current i { display: block;}
+#topHeader .search-cms .form-box { background-color: #D3E7FC; display: block; padding: 3px;}
+#topHeader .search-cms .form-box form { display: block; width: 506px; height: 32px; border: solid 1px #1373D8; }
+#topHeader .search-cms .input-text { line-height: 20px; background-color: #FFF; display: block; width: 414px; height: 20px; float: left; padding: 6px; border: 0; box-shadow: inset 2px 2px 2px rgba(153,153,153, 0.25);}
+#topHeader .search-cms .input-btn { font-size: 14px; font-weight: 600; color: #FFF; background-color: #0094DE; display: block; width: 80px; height: 32px; border-color: #4095F2 #0094DE #0094DE; border-style: solid; border-width: 1px 0 0 1px; cursor: pointer;}
+/*天气插件演示用*/
+#topHeader .weather-box { width: 140x; height: 85px; position: absolute; z-index: 1; right: 0px; top: 8px; overflow: hidden;}
+#topHeader .weather-box .content { width: 140px; height: 109px; margin: -24px -2px 0 0; }
+/*cms导航*/
+#navBar { width: 100%; height: 40px; padding: 0; margin: 0 auto;background: #0094DE;}
+#navBar ul.nc-nav-menu { width: 1200px; height: 40px;margin: 0 auto;}
+#navBar ul.nc-nav-menu li { width: 80px;height: 40px;padding: 0 10px;float: left;}
+#navBar ul.nc-nav-menu li a{width: 80px;height: 40px;display: inline-block;padding:0 10px;line-height: 40px;font-size: 18px;color: #fff;text-decoration: none;text-align: center;}
+#navBar ul.nc-nav-menu li a.current{background: #F2A606;color:#fff; }
+.nch-breadcrumb-layout {
+    text-align: center;
+}
+.nch-breadcrumb {
+
+    text-align: left;
+    height: 20px;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+.hot_keyword a{
+	display: inline-block;
+	padding: 5px 5px;
+}
+.header_phone{
+	width: 168px;
+	height: 42px;
+	background: url(../images/cms/num_bg.png) no-repeat center right;
+	float: right;
+	position: relative;
+	top: 50px;
+	font-size: 16px;
+	color: #333;
+	text-indent: 1em;
+	font-weight: 600;
+	line-height: 65px;
+	right: 40px;
+}

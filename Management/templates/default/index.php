@@ -1,0 +1,1 @@
+<?php defined('TTShop') or exit('Access Invalid!');?>

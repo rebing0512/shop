@@ -1,0 +1,109 @@
+<?php
+$config = array();
+$config['base_site_url']        = 'http://'.$_SERVER['HTTP_HOST'];
+$config['shop_site_url']        = 'http://'.$_SERVER['HTTP_HOST'];
+$config['cms_site_url']         = 'http://'.$_SERVER['HTTP_HOST'].'/cms';
+$config['microshop_site_url']   = 'http://'.$_SERVER['HTTP_HOST'].'/microshop';
+$config['circle_site_url']      = 'http://'.$_SERVER['HTTP_HOST'].'/circle';
+$config['admin_site_url']       = 'http://'.$_SERVER['HTTP_HOST'].'/adminmin';
+$config['wap_site_url']         = 'http://'.$_SERVER['HTTP_HOST'].'/wap';
+$config['mobile_site_url']      = 'http://'.$_SERVER['HTTP_HOST'].'/wap';
+$config['chat_site_url']        = 'http://'.$_SERVER['HTTP_HOST'].'/chat';
+$config['node_site_url']        = 'http://'.$_SERVER['HTTP_HOST'].':8090';
+$config['delivery_site_url']    = 'http://'.$_SERVER['HTTP_HOST'].'/delivery';
+$config['chain_site_url']       = 'http://'.$_SERVER['HTTP_HOST'].'/chain';
+// $config['member_site_url']      = 'http://www.bpsys.top/member';
+$config['upload_site_url']      = 'http://'.$_SERVER['HTTP_HOST'].'/data/upload';
+$config['resource_site_url']    = 'http://'.$_SERVER['HTTP_HOST'].'/data/resource';
+$config['cms_modules_url']      = 'http://'.$_SERVER['HTTP_HOST'].'/adminmin/modules/cms';
+$config['microshop_modules_url']= 'http://'.$_SERVER['HTTP_HOST'].'/adminmin/modules/microshop';
+$config['circle_modules_url']   = 'http://'.$_SERVER['HTTP_HOST'].'/adminmin/modules/circle';
+$config['admin_modules_url']    = 'http://'.$_SERVER['HTTP_HOST'].'/adminmin/modules/shop';
+$config['mobile_modules_url']   = 'http://'.$_SERVER['HTTP_HOST'].'/adminmin/modules/mobile';
+$config['version']              = '20150908';
+$config['setup_date']           = '2015-12-05 14:27:23';
+$config['gip']                  = 1;
+$config['dbdriver']             = 'mysql';
+$config['tablepre']             = 's_';
+$config['db']['1']['dbhost']       = 'root.z';
+$config['db']['1']['dbport']       = '3306';
+$config['db']['1']['dbuser']       = 'root';
+$config['db']['1']['dbpwd']        = 'root';
+$config['db']['1']['dbname']       = 'root';
+$config['db']['1']['dbcharset']    = 'UTF-8';
+$config['db']['slave']                  = $config['db']['master'];
+$config['session_expire']   = 3600;
+$config['lang_type']        = 'zh_cn';
+$config['cookie_pre']       = 'tt520_';
+$config['cache_open'] = false;
+//$config['redis']['prefix']        = 'nc_';
+//$config['redis']['master']['port']        = 6379;
+//$config['redis']['master']['host']        = 'localhost';
+//$config['redis']['master']['pconnect']    = 0;
+//$config['redis']['slave']             = array();
+//$config['fullindexer']['open']      = false;
+//$config['fullindexer']['appname']   = 'shopwapp';
+$config['debug']            = false;
+$config['url_model'] = true;
+// $config['subdomain_suffix'] = 'wstcsc.cn';
+//$config['session_type'] = 'redis';
+//$config['session_save_path'] = 'tcp://localhost:6379';
+// 默认关闭nodechat
+$config['node_chat'] = false;
+//流量记录表数量，为1~10之间的数字，默认为3，数字设置完成后请不要轻易修改，否则可能造成流量统计功能数据错误
+$config['flowstat_tablenum'] = 3;
+$config['sms']['gwUrl'] = 'http://sdk4report.eucp.b2m.cn:8080/sdk/SDKService';
+$config['sms']['serialNumber'] = '';
+$config['sms']['password'] = '';
+$config['sms']['sessionKey'] = '';
+$config['queue']['open'] = false;
+$config['queue']['host'] = 'localhost';
+$config['queue']['port'] = 6379;
+//$config['oss']['open'] = false;
+//$config['oss']['img_url'] = '';
+//$config['oss']['api_url'] = '';
+//$config['oss']['bucket'] = '';
+//$config['oss']['access_id'] = '';
+//$config['oss']['access_key'] = '';
+$config['https'] = false;
+
+//Stone
+$config['stone'] = array(
+    //id => value
+    1 => '田黄石',
+    2 => '荔枝洞',
+    3 => '芙蓉石',
+    4 => '高山石',
+    5 => '都成坑',
+    6 => '善伯洞',
+    7 => '旗降石',
+    8 => '其他'
+);
+//Carve
+$config['carve'] = array(
+    //id => value
+    1 => '金石篆刻',
+    2 => '薄意雕',
+    3 => '浮雕',
+    4 => '圆雕',
+    5 => '印钮雕',
+    6 => '其他'
+);
+//First
+$config['index_category'] = array(
+    //id => value
+    1 => '钮章',
+    2 => '摆件',
+    3 => '手件',
+    4 => '挂件',
+    5 => '文房'
+);
+//
+$config['read'] = array(
+    //id = value
+    1 => '生活美学',
+    2 => '寿山石文化',
+    3 => '收藏艺术'
+);
+
+return $config;

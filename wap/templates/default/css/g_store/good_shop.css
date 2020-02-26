@@ -1,0 +1,163 @@
+
+.good-shop-item{
+    background-color: #ffffff;
+    padding: 15px 0;
+    margin-bottom: 10px;
+}
+.good-shop-item a,.good-shop-item img{
+    display: block;
+}
+.shop-header{
+    padding: 0 14px;
+    margin-bottom: 15px;
+}
+.shop-header .shop-avatar{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    float: left;
+}
+.shop-header .shop-avatar img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.shop-header .right-wrapper{
+    margin-left: 55px;
+}
+.shop-header .shop-name{
+    font-size: 13px;
+    color: #414141;
+    font-weight: bold;
+}
+.shop-header .update-time{
+    font-size: 12px;
+    -webkit-transform: scale(0.833333);
+    color: #808080;
+    transform-origin: left top;
+    display: block;/*必须是块级元素才能缩放*/
+    white-space: nowrap;
+}
+.shop-header .shop-info{
+    padding-top: 3px;
+}
+
+.shop-header .attention-btn{
+    display: inline-block;
+    padding: 0 12px;
+    border: 1px solid #cacaca;
+    border-radius: 2px;
+    color: #818181;
+    margin-top: 5px;
+    margin-right: 5px;
+    line-height: 24px;
+    min-width: 70px;
+    text-align: center;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 320px) {
+    .shop-header .shop-info{
+        max-width: 160px;
+    }
+    .shop-header .attention-btn{
+        padding: 0 6px;
+        min-width: unset;
+        font-size: 12px;
+    }
+    .shop-header .attention-btn-wrapper{
+        font-size: 0;
+    }
+}
+.shop-header .icon-jiantou{
+    color:#818181 ;
+}
+.shop-header .icon-xiala{
+    color: #f96678;
+}
+.pro-info{
+    margin: 0 14px;
+    margin-bottom: 15px;
+}
+.pro-info .title{
+    font-size: 15px;
+    font-weight: bold;
+    color: #3f3f3f;
+    margin-bottom: 3px;
+    height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.pro-info .price{
+    font-size: 14px;
+    font-weight: bold;
+    color: #cf0f1a;
+    display: inline-block;
+    margin-right: 4px;
+    line-height: 1;
+    vertical-align: middle;
+}
+.pro-info .tint{
+    font-size: 12px;
+    color: #808080;
+    display: inline-block;
+    margin-left: 4px;
+    line-height: 1;
+    vertical-align: middle;
+}
+.pro-info .divide-line-v{
+    display: inline-block;
+    width: 1px;
+    background-color: #878787;
+    height: 14px;
+    vertical-align: middle;
+}
+.pro-like-btn-wrapper{
+    background-color: #f9f9f9;
+    padding: 0 10px;
+}
+.pro-like-btn-wrapper .icon-xihuan{
+    display: inline-block;
+    vertical-align: middle;
+}
+.pro-like-btn-wrapper .icon-like_xin{
+    color: #e9726e;
+    display: inline-block;
+    vertical-align: middle;
+}
+.pro-like-btn-wrapper .count{
+    display: inline-block;
+    vertical-align: middle;
+}
+.pro-imgs-list{
+    overflow-x: scroll;
+    -webkit-overflow-scrolling:touch;
+}
+.pro-imgs-list::-webkit-scrollbar{display: none;} /*隐藏滚动条*/
+/*.pro-imgs-list ul{*/
+    /*-webkit-overflow-scrolling:touch;*/
+/*}*/
+.pro-imgs-list a,.pro-imgs-list img{
+    display: block;
+}
+.pro-imgs-list li{
+    float: left;
+}
+.pro-imgs-list li:not(:last-child){
+    margin-right: 12px;
+}
+.pro-imgs-list img{
+    width: 100%;
+    height: auto;
+}
+.pro-imgs-list ul{
+    padding: 0 14px;
+}
+.pro-info .fl{
+    max-width: 80%;
+}
+.weui-loadmore_line .weui-loadmore__tips{
+    background-color: #eee;
+}

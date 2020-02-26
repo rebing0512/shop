@@ -1,0 +1,86 @@
+section{ width:100%;overflow: hidden; position: relative; background: #fff;}
+section{ background: #fff;}
+.tu img{ width: 100%;}
+.tu li{display: none}
+.tu li.on{display: block}
+ol{position: absolute;bottom:10px;right: 50%;}
+ol li{ float:left;width:10px;height:10px;text-align: center; border-radius: 50%;
+    background: #fff;margin-right:3px;}
+ol li.tt{ background: #f00;}
+
+.txt{ width: 100%; padding: 30px 0 40px; }
+.txt li{ margin:0 5%;}
+.txt li a{ font-size: 0.5em; color: #800000;}
+.txt p{font-size: 2em;color: #000;line-height: normal;padding-top: 5px; display: block; padding-left: 0;text-align:center;}
+
+.top{ height: 70px;}
+.img{ width: 32.7%; margin-right: 1%; position: relative;}
+.sml{ width: 66%;}
+h3{ line-height: 70px; padding-left: 3%;}
+.sml li{ float: left; width: 49%; position: relative;}
+.sml .one{ margin-right: 1%;}
+.sml .two{ margin-bottom: 0;}
+.pic p{ position: absolute; top: 10px; left: 15px; font-size: 0.4em; color: #fff; line-height: normal;}
+.img1 img{ position: relative;}
+.img1 p{ right: 5%;position: absolute; top: 90px;font-size: 0.4em; color: #fff; line-height: normal;}
+/*.last{ padding-bottom: 70px;}*/
+.renwu .img p{ color: #000;}
+.renwu p{ left: 34%;}
+.renwu .sml p{ bottom: 10px; top: inherit;}
+.last{ padding-top: 50px;}
+.list{ padding-left: 12%; padding-bottom: 20px;}
+.list li a{ display: inline-block; padding: 0 10px; line-height: 30px; color: #6e6e6e;}
+.list li a:hover{ color: #760000;}
+.final li{ float: left; width: 49%;}
+.final p{  line-height: 25px; font-size: 0.3em; text-align: left}
+.final span{ display: block;}
+.three{ margin-right: 1%;}
+.list{ padding-left: 25%; margin-bottom: -10px;}
+header p{ text-align: center; line-height:100px; padding-left: 35%; }
+.list li a{ display: inline-block; padding: 0 15px; color: #5e5e5e; line-height: 80px;}
+.list li:hover a{ color: #a10000;}
+.list:after{ content:" "; width: 100%; height: 2px; background-color: #000; left: 0px; top: 70px; position: absolute;}
+.first{ position: relative;}
+.two{ padding-left: 15px;}
+.diao{ padding-left: 33px;}
+
+h4{ font-size: 1em;color: #4d4d4d; padding: 70px 0 30px; text-align: center;}
+
+.other {
+    padding-bottom: 130px;
+    padding-left: 18.5%;
+
+}
+.other li a{ display: block; line-height: 40px; font-size: 1em;}
+
+.last ul{
+
+}
+.last li a{ display: block; line-height: 45px; padding: 0 20%; color: #fff;}
+.last ul li{ background: #6c0000;text-align: center;width: 45%;float: left;margin-left: 3.5%;}
+.last .two{ margin-left: 5px;}
+section{
+    margin-top: 10px;
+}
+.stonelist{
+    margin-left: 10%;
+}
+.stonelist>li{
+    font-size: .7rem;
+    float: left;
+    margin-top:50px;
+    width:25%;
+    text-align: center;
+
+}
+.stonelist>li>i{
+    float: right;
+}
+h4{
+    font-size: .7rem;
+}
+.other>li{
+    font-size: .6rem;
+    width:32%;
+    float: left;
+}

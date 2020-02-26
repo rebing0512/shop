@@ -1,0 +1,518 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+html {
+	font-size: 12px;
+}
+
+html,
+body {
+	font-family: PingFang-SC-Regular, Helvetica Neue, Helvetica, microsoft yahei, sans-serif;
+	color: #555;
+	overflow: -Scroll;
+	overflow-x: hidden;
+	background-color: #F8F8F8;
+
+}
+body{-webkit-text-size-adjust:none}
+
+/*顶部通用css*/
+
+.main{
+	margin-left: 0rem;
+	padding: 0.5rem 0.3rem;
+	opacity: 1;
+	top: 0;
+	float: left;
+	width: 100%;
+	position: relative;
+	z-index: 100;
+	visibility: visible;
+	background-color: #fff;
+	transform: translateX(0);
+}
+
+
+header {
+	background-color: #335F62;
+	width: 100%;
+	height: 3.917rem;
+	z-index: 98;
+}
+
+header div {
+	float: left;
+}
+
+header a {
+	color: white;
+}
+
+header .fanhui {
+	margin-left: 0.5rem;
+	margin-top: 0.8rem;
+}
+header .fanhui img {
+	width: 2.1rem;
+	vertical-align: sub;
+}
+header div img {
+	line-height: 3.5rem;
+	width: 2rem;
+}
+
+header .span1 {
+	display: block;
+	width: 12rem;
+	line-height: 3.917rem;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.53rem;
+	color: white;
+}
+
+header .gengduo {
+	display: block;
+	position: absolute;
+	right: 1rem;
+	top: 0.91rem;
+	font-size: 1.2rem;
+	color: white;
+}
+header .gengduo img{
+	width: 1.3rem;
+}
+header .search {
+	display: block;
+	width: 90%;
+	height:2rem;
+	margin-left: 3rem;
+	margin-top: 0.5rem;
+	position: absolute;
+	padding-bottom: 0.4rem;
+	
+	z-index: 98;
+	border-bottom: 2px solid #258785;
+}
+.search img{
+	width: 1.2rem;
+	vertical-align: middle;
+	border-left: 1px solid #305456;
+	margin-left: -0.5rem;
+	padding-left: 0.5rem;
+}
+.search input {
+	width:92%;
+	display: inline-block;
+	height: 2rem;
+	outline: none;
+	border: none;
+	margin-left: 0.5rem;
+	background-color: rgba(0,0,0,0);
+	
+}
+
+input[placeholder], [placeholder], *[placeholder] { 
+color:black; 
+font-size: 1.2rem;
+} 
+::-webkit-input-placeholder { color:#557A7D; }
+::-moz-placeholder { color:#557A7D; } /* firefox 19+ */
+:-ms-input-placeholder { color:#557A7D; } /* ie */
+input:-moz-placeholder { color:#557A7D; }
+
+/*中间主体总部份*/
+
+section {
+	/*max-width: 640px;*/
+	min-width: 320px;
+	margin: 0rem auto;
+	margin-bottom: 5rem;
+	height: 100%;
+	
+}
+
+
+/*底部样式*/
+
+
+.weui_tabbar .weui_tabbar_icon_a img {
+	padding-bottom: 3rem;
+	width: 2.3rem !important;
+	height: 3.2rem !important;
+	position: absolute;
+	bottom:-1rem;
+	
+}
+
+.weui_tabbar {
+	position: fixed !important;
+	bottom: -5px;
+	height: 4.3rem;
+	background-color: #E6E7E9;
+	text-align: center;
+	z-index: 98;
+}
+
+.weui_tabbar .weui_tabbar_item {
+	text-align: center;
+	z-index: 200;
+}
+
+.weui_tabbar .weui_tabbar_icon img {
+	width: 2rem;
+	height: 2rem;
+}
+
+.weui_tabbar a .weui_tabbar_label {
+	color: gray;
+	margin-top: 0rem;
+	font-size: 1rem;
+}
+.weui_tabbar_label_1{
+	color: gray;
+	position:absolute;
+	top:2.5rem;
+	font-size: 1rem;
+}
+/*.weui_tabbar_item .huomiao {*/
+	/*position: relative;*/
+	/*top: -1.8rem;*/
+	/*height:6rem;*/
+	/*background-color: #E6E7E9;*/
+	/*text-align: center;*/
+	/*border-radius: 50%;*/
+	/*z-index: 0;*/
+/*}*/
+.weui_tabbar:before {
+	border-top: none;
+}
+
+.weui_tabbar a .iconfont-gengduo4 {
+	font-size: 3rem;
+	color: black;
+}
+
+.weui_tabbar_icon {
+	color: gray;
+	text-align: center;
+}
+
+.weui_tabbar_item_1 p {
+	color: #829EA0 !important;
+}
+
+
+/*返回顶部*/
+
+.return_top {
+	width: 2rem;
+	height: 2rem;
+	line-height: 2rem;
+	border-radius: 50%;
+	background-color: black;
+	position: fixed;
+	bottom: 5rem;
+	right: 1.5rem;
+	color: white;
+	display: none;
+}
+
+.return_top i {
+	margin-left: 0.3rem;
+}
+
+
+/*顶部加号更多*/
+
+.gengduo_a{
+	display: none;
+	width: 9rem;
+	z-index: 99;
+	background-color: #335F62;
+	position: fixed;
+	right: 1rem;
+	top: 4.3rem;
+	color: white;
+	padding: 0.5rem 1rem;
+	border-radius:0.4rem;
+}
+.gengduo_a ul li {
+	list-style-type: none;
+	border-bottom: 1px solid gray;
+	height: 3rem;
+	line-height: 3rem;
+	text-align: center;
+}
+.gengduo_a ul li:nth-last-child(1){
+	border-bottom:none;
+}
+.gengduo_a ul li i {
+	margin-right: 1rem;
+}
+
+
+
+@media only screen and (min-width:400px) {
+	html {
+		font-size: 12px!important
+	}
+}
+
+@media only screen and (min-width:414px) {
+	html {
+		font-size: 12px!important
+	}
+}
+
+@media only screen and (min-width:480px) {
+	html {
+		font-size: 12px!important
+	}
+}
+/*分类amazeui*/
+.am-minw {
+				width: 6rem;
+				font-size: 1rem;
+			}
+			
+			.am-minw a {
+				color: #A0A0A6;
+			}
+			
+			.am-thumbnail {
+				border: none;
+			}
+			
+			.am-u-sm-2 {
+				background-color: #f8f8f8;
+			}
+			
+			.am-thumbnails>li {
+				text-align: center;
+			}
+			
+			.am-tabs-default .am-tabs-nav {
+				line-height: 40px;
+				background-color: white;
+			}
+			
+			.fenlei {
+				width: 100%;
+				height: 7.5rem;
+				line-height: 7.5rem;
+				font-size: 1.3rem;
+				background-color:whitesmoke;
+				padding: 0;
+				color: white;
+				text-align: center;
+			}
+.am-nav>li>a {
+
+	padding: .2em 0.5em;
+}
+			.am-u-search {
+				width: 100%;
+				height: 6.5rem;
+				font-size: 1.9rem;
+				padding: 0;
+				text-align: center;
+			}
+			
+			.am-u-search a {
+				margin: 0 !important;
+				border: none !important;
+				height: 6rem;
+				font-size: 1.1rem;
+				line-height: 6.0rem !important;
+			}
+			
+			.am-nav-tabs {
+				border-bottom: none;
+			}
+			
+			.am-mgl {
+				margin: 0px;
+			}
+			
+			a {
+				outline: none;
+			}
+			
+			.am-minw.am-active {
+				color: #335F62;
+			}
+			
+			.am-tabs-bd {
+				border: none;
+			}
+			
+			.am-tabs-bd .am-tab-panel.am-active {
+				margin-left: 0rem;
+			}
+			
+			[data-am-widget=tabs] {
+				margin: 0px;
+			}
+			
+			.am-tabs_1 .am-tabs-nav li {
+				width: 6.5rem;
+				height: 6.5rem;
+			}
+			
+			.am-nav-tabs>li.am-active_a>img
+			{
+				color: #555;
+				cursor: default;
+			}
+
+			.am-nav>li>img {
+				position: relative;
+				display: block;
+				padding: 0rem 0.5rem 1rem 0.5rem;
+				border-radius: 0;
+			}
+			
+			.am-tabs_1 .am-tabs-nav li img {
+				width: 100%;
+				position: relative;
+			}
+			
+			.am-active_c {
+				color: white;
+				position: absolute;
+				top: 0.3rem;
+				left: 1.9rem;
+				padding-bottom: 2rem;
+				font-size: 1.3rem;
+			}
+			
+			.am-tabs-bd div li {
+				font-size: 1rem;
+				text-align: center;
+			}
+			
+			.am-tabs-bd .am-tabs-nav li:nth-child(2n-1) {
+				margin-left: 0.5rem;
+			}
+			
+			.am-tabs-bd .am-tab-panel {
+				padding: 0.5rem 0.3rem;
+			}
+			
+			.am-thumbnail {
+				margin-bottom: 0.5rem;
+				/*background-color:#F5F5F5;*/
+			}
+			
+			.am-tab-panel_nav {
+				padding-top: 2rem;
+				padding-bottom: 0.5rem;
+				padding-left: 1rem;
+				font-size: 1.1rem;
+				color: gray;
+			}
+			
+			.am-thumbnail_a{
+				background-color: #760000;
+				color: white;
+				height: 6rem;
+				line-height: 6rem;
+			}
+
+			
+			.chicun {
+				padding-right: 0.5rem;
+				font-size: 3rem;
+				margin-bottom: 0rem;
+				margin-left: -2rem;
+				position: relative;
+				
+				
+			}
+			.chicun1 {
+				padding-right: 0.5rem;
+				font-size: 3rem;
+				margin-bottom: 0rem;
+				margin-left: -1rem;
+				position: relative;
+				
+				
+			}
+			.chicun_1{
+				
+				font-size: 1.1rem;
+				margin-bottom: -0.5rem !important;
+				position: absolute;
+				
+			}
+			.chicun_11{
+				font-size: 1.1rem;
+				margin-top: -0.6rem !important;
+				position: absolute;
+			}
+			.chicun_2 {
+				color: white;
+				font-size: 0.7rem ;
+				font-weight: 600;
+				-webkit-transform:scale(0.7);
+				position: absolute;
+				margin-left: -0.25rem;
+				margin-top: 0.6rem;
+			}
+			
+			.es {
+				display: none;
+			}
+			
+			.am-avg_a li {
+				width: 32.33%;
+				padding: 1rem;
+			}
+			
+			.am-tabs-bd_b {
+				padding: 1rem 0.5rem;
+				display: none;
+			}
+			
+			.am-tabs-bd_b img {
+				border-radius: 50%;
+				padding: 0.5rem;
+			}
+			
+			.am-tabs-bd_a {
+				margin-top: 0rem;
+				clear: both;
+			}
+			.am_tabs_hd{
+				    margin-top: 0rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    height: 7rem;
+    align-items: center;
+    background: url(../img/midi/07_08_1.jpg) 0 0 no-repeat;
+    background-size: cover;
+    width: 100%;
+			}
+			.am_tabs_bds{
+				background-color: white;
+			}
+			.am_tabs_hd_txt{
+				color: white;
+				padding-top: 2rem;
+			}
+			.weui_media_box.weui_media_appmsg .weui_media_bd{
+				padding-top: 1rem;
+			}
+			.texture_a{
+				font-size: 10px;
+				-webkit-transform: scale(0.8);
+				display: block;
+			}
+

@@ -1,0 +1,171 @@
+.nav_body {
+    font-family: PingFang-SC-Regular,Helvetica,sans-serif !important;
+}
+
+.weui-row_active1{
+    color: #002c2c !important;
+}
+/*通用字体颜色*/
+
+.weui-row_active{
+    color: #085556 !important;
+}
+/*通用背景色*/
+.general_bgc{
+    background-color:#085556 !important;
+    color: white;
+}
+/*通用边框*/
+.general_border{
+    border: 1px solid #085556 !important;
+}
+.general_border1{
+    border: 1.9px solid #085556 ;
+}
+.general_borderbt{
+    border-bottom: 1px solid #085556 !important;
+}
+/*通用下边框*/
+.general_bottom{
+    border-bottom: 3px solid #085556;
+}
+/*通用上边框*/
+.general_top{
+    border-top: 3px solid #085556;
+}
+/*分类选中样式*/
+.circled{
+    border: 1px solid #085556 !important;
+    background-color:#085556;
+    color: #fff !important;
+}
+/*weui选项卡下边框和字体*/
+.weui_navbar_item.weui_bar_item_on span {
+    border-bottom: 3px solid #085556;
+    color: #085556;
+}
+.article .weui_navbar_item.weui_bar_item_on {
+     color: #085556;
+     border-bottom: 3px solid #085556;
+}
+/*底部导航图片和字体变换颜色*/
+.foot-nav a i{display: block; margin: -2px auto 0; width: 32px; height: 32px;float:none; background: url(../images/guoshizhijia_toolbar.png) no-repeat; z-index: 100;}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2){.foot-nav a i{background: url(../images/guoshizhijia_toolbar.png) no-repeat;    background-size: 149px 65px;z-index: 100}}
+.foot-nav a i.cart{background-position: -90px -31px;}
+/*底部导航选中颜色*/
+.foot-nav a span{font-size: 12px;position: relative;top: -6px;color: #085556;}
+/*返回顶部*/
+.fix-block-r a.gotop-btn i {
+     background-image: url(../images/qt_back.png);
+     width: 1.8rem;
+     height: 1.8rem;
+ }
+.fix-block-share a i,#fullshare i {
+    background-image: url(../images/share_guoshi.png);
+    width: 1.8rem;
+    height: 1.8rem;
+    display: block;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.yimeng_camera i {
+    background-image: url(../images/qt_camare.png);
+    width: 1.8rem;
+    height: 1.8rem;
+    display: block;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*分类左侧选项*/
+.am-nav-tabs>li.am-active>a, .am-nav-tabs>li.am-active>a:focus, .am-nav-tabs>li.am-active>a:hover {
+     color: #085556;
+}
+/*仙作城*/
+.am-tabs-default .am-tabs-nav>.am-active a {
+    color: #085556 !important;
+}
+.goods-search-list-nav ul li a.current {
+    color: #085556;
+}
+.goods-search-list-nav ul li a.current i {
+    border-color: #085556 transparent transparent transparent;
+}
+/*商品添加里的上架按钮*/
+.input-box label.checked .power{
+    background-color: #085556;
+    border-color:#085556;
+}
+header, .header{
+    background: #000;
+}
+header.fixed{
+    background:#000;
+}
+.btn-l{
+    background:#085556;
+}
+.nctouch-nav-menu ul{
+    background: #000;
+}
+.nctouch-nav-menu .arrow{
+    border-color: transparent transparent #000 transparent;
+}
+.nctouch-inp-con .form-btn.ok .btn{
+    background: #085556;
+}
+.nctouch-tag-nav ul li.selected{
+    background-color:#085556;
+}
+.transparent .nctouch-nav-menu ul{
+    background:#000;
+}
+.transparent .nctouch-nav-menu ul li {
+    border-bottom-color: #5c5b5d;
+}
+.header-r a.text{
+    color: #fff;
+}
+
+.list .goods-secrch-list .goods-price{
+    color: #085556 !important;
+}
+.nctouch-order-item-footer .store-totle .sum{
+    color: #085556 !important;
+}
+.nctouch-single-nav ul li.selected a{
+    color: #085556;
+    border-bottom: solid 0.1rem #085556 !important;
+}
+.nctouch-order-item-head .state{
+    color: #085556 !important;
+}
+#update-touxiang{
+    background: #085556 !important;
+}
+.search-form input[type="submit"], .search-form input.submit, .search-form a.submit{
+    background: #085556 ;
+}
+.android-ics .dwv{
+    border-bottom: 2px solid #085556 !important;
+}
+.android-ics .dw{
+    color: #085556 !important;
+}
+.input-boxt em.checked .power{
+    background-color: #085556 !important;
+    border-color: #085556 !important;
+}
+.btn-add{
+    color: #085556  !important;
+}
+.fix-block-share #ondeskTop i {
+    background-image: url("../images/icon-toDestop_guoshi.png");
+    width: 1.8rem;
+    height: 1.8rem;
+    display: block;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

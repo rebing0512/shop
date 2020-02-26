@@ -1,0 +1,53 @@
+
+body,dl,dd,h1,h2,h3,h4,h5,h6,p,pre,form,fieldset,legend {margin: 0;}
+ul,ol,fieldset {margin:0;padding:0;}
+th, td {padding: 0;}
+table {font-size:inherit;}
+fieldset, img {border:none;}
+ul,ol,li {list-style:none;}
+body {  font-size: 12px;line-height:1.5;background-color:#fff;color: #444;font-weight: 400;overflow-x: hidden;overflow-y: auto;}
+h1,h2,h3,h4{font-size:18px; font-weight:normal;}
+body,input,textarea,select,button {font-family:'microsoft yahei', 'Arial', 'Helvetica', 'sans-serif'; -webkit-text-size-adjust:none;}
+input, textarea, select, button {
+    font-size:inherit;
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+a {color: #222;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+:focus {outline: none;}
+
+/* #html5 HTML5 元素的支持 */
+article, aside, details,
+figcaption, figure,
+footer, header, hgroup,
+main, nav, section,
+summary { display: block; }
+audio, canvas, video { display: inline-block; }
+img{
+    display: block;
+}
+.clearfix:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfix{zoom:1}
+.border-top{
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#eeeeee),color-stop(50%,#eeeeee),color-stop(50%,transparent));
+    background-image: -webkit-linear-gradient(top,#eeeeee 0,#eeeeee 50%,transparent 50%);
+    background-image: linear-gradient(to bottom,#eeeeee 0,#eeeeee 50%,transparent 50%);
+    -webkit-background-size: 100% 1px;
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.border-bottom{
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#eeeeee),color-stop(50%,#eeeeee),color-stop(50%,transparent));
+    background-image: -webkit-linear-gradient(top,#eeeeee 0,#eeeeee 50%,transparent 50%);
+    background-image: linear-gradient(to bottom,#eeeeee 0,#eeeeee 50%,transparent 50%);
+    -webkit-background-size: 100% 1px;
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
